@@ -1037,11 +1037,29 @@ form input[type="submit"]:hover {
 footer {
   margin: 30px auto;
   padding: 10px;
-  color: #D8D8D8;
+  background-color: #fafafa;
+  display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 footer p {
   text-align: center;
+}
+
+.footer_text{
+  color:#959393;
+  font-size:12px;
+  width: 200px;
+  display: inline-block;
+}
+
+.footer_name{
+  color: lightseagreen;
+  font-size:16px;
+  width: 100px;
+  display: inline-block;
+  
 }
 
 .search-form {
