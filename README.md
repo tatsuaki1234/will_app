@@ -14,6 +14,7 @@
 ### Association
 
 - has_many :articles
+- has_many :comments
 - has_many :wills
 - has_many :will_addresses
 
@@ -23,20 +24,14 @@
 
 | Column                | Type       | Options                        |
 | --------------------- | ---------- | ------------------------------ |
-| name                  | string     | null: false                    |
+| title                 | string     | null: false                    |
 | content               | text       | null: false                    |
-| category_id           | integer    | null: false,                   |
-| condition_id          | integer    | null: false,                   |
-| postage_id            | integer    | null: false,                   |
-| area_id               | integer    | null: false,                   |
-| scheduled_delivery_id | integer    | null: false,                   |
-| price                 | integer    | null: false                    |
 | user                  | references | null: false, foreign_key: true |
 
 ### Association
 
 - belongs_to :user
-- has_one :order
+- has_many :comments
 
 
 
@@ -45,33 +40,46 @@
 ## comments テーブル
 
 | Column          | Type       | Options                        |
-| ---------       | ---------- | ------------------------------ |
+| --------------- | ---------- | ------------------------------ |
+| content         | text       | null: false                    |
 | user            | references | null: false, foreign_key: true |
-| item            | references | null: false, foreign_key: true |
+| article         | references | null: false, foreign_key: true |
 
 ### Association
 
 - belongs_to :user
-- belongs_to :item
-- has_one    :address
+- belongs_to :articles
 
 
-## addresses テーブル
+
+## wills テーブル
 
 | Column          | Type       | Options                        |
 | ---------       | ---------- | ------------------------------ |
-| post_code       | string     | null: false                    |
-| city_code       | string     | null: false                    |
-| area_id         | integer    | null: false                    |
-| post_number     | string     | null: false                    |
-| building_name   | string     |                                | 
-| phone_number    | string     | null: false                    |
-| order           | references | null: false, foreign_key: true |
+| content         | string     | null: false                    |
+| user           | references | null: false, foreign_key: true |
+| will_address   | references | null: false, foreign_key: true |
 
 
 ### Association
 
 - belongs_to :order
+- belongs_to :will_addresses
+
+
+## will_addresses テーブル
+
+| Column          | Type       | Options                        |
+| ---------       | ---------- | ------------------------------ |
+| name            | string     | null: false                    |
+| user            | references | null: false, foreign_key: true |
+
+
+
+### Association
+
+- belongs_to :user
+- belongs_to :will
 
 
 
