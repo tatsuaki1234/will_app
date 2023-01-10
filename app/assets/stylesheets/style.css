@@ -1034,6 +1034,49 @@ form input[type="submit"]:hover {
   text-decoration: underline;
 }
 
+
+.article-box{
+  justify-content: center;
+  height: 600px;
+  width:800px;
+  overflow-y: scroll;
+  background-color: lightcyan;
+}
+
+#--------------------------------------------------
+
+.surch-form{
+  display: flex;
+  justify-content: center;
+}
+
+.form-surch{
+  height:30px;
+  width:600px;
+}
+
+.form-button{
+  height:36px;
+  width:50px;
+}
+
+.main-icon{
+  display: flex;
+  justify-content: center;
+}
+
+
+.popular-text,.view_history-text,.favorite-icon,.sorting-icon{
+  margin: 10px 30px;
+}
+
+.content_post{
+  margin: 100px;
+}
+
+#--------------------------------------------------
+
+
 footer {
   margin: 30px auto;
   padding: 10px;
@@ -1043,9 +1086,9 @@ footer {
 	align-items: center;
 }
 
-footer p {
+/* footer p {
   text-align: center;
-}
+} */
 
 .footer_text{
   color:#959393;

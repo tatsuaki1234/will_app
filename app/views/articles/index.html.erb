@@ -1,10 +1,46 @@
 <div class="contents row">
-  <% @articles.each do |article| %>
-    <div class="content_post" style="background-image: url(<%= article.image %>);">
-      <p><%= article.title %></p>
-      <span class="name">
-        <%= article.content %>
-      </span>
+  
+  <div class="main-content">
+  <div class="surch-form">
+    <input class="form-surch" type="text" id="text" name="text" >
+    <input class="form-button" type="submit" value="検索">
+  </div>
+  <div class="main-icon">
+    <div class="popular-icon">
+      <!-- <img src="image/23265114.jpg" class="popular-picture"> -->
+      <p class="popular-text">人気</p>
     </div>
-  <% end %>
+    <div class="view_history-icon">
+      <!-- <img src="image/view_history.jpg" class="view_history-picture"> -->
+      <p class="view_history-text">閲覧履歴</p>
+    </div>
+    <div class="favorite-icon">お気に入り</div>
+    <div class="sorting-icon">並べ変え</div>
+  </div>
+
+
+
+  <div class="article-box">
+    <% @articles.each do |article| %>
+      <div class="content_post" style="background-image: url(<%= article.image %>);">
+        <p><%= article.title %></p>
+        <span class="name">
+          <%= article.content %>
+        </span>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+<div>div class="new-posts">新しい投稿</div>
+  <div class="image-list">
+    <% @post.each do |post|%> 
+      <%= link_to post_path(post.id) do %>
+        <%= image_tag post.image.variant(resize: '400x319',gravity: "center", crop: "300x250+0+0"), class: "post-image" %>
+      <% end %>
+      <%# <%= post.user.nickname%>
+    <% end %>
+  </div>
 </div>
