@@ -1041,7 +1041,8 @@ form input[type="submit"]:hover {
 .surch-form{
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .form-surch{
@@ -1063,6 +1064,9 @@ form input[type="submit"]:hover {
 
 .popular-text,.view_history-text,.favorite-icon,.sorting-icon{
   margin: 10px 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 3px;
 }
 
 .content_post{
@@ -1095,13 +1099,38 @@ form input[type="submit"]:hover {
 
 
  .article-box{
-  justify-content: center;
   height: 500px;
   width:800px;
   overflow-y: scroll;
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.main-articles{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.article-title{
+  font-weight:800;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+.article-content{
+  font-size: 12px;
+  line-height: 0;
+}
+
+.article-user{
+  line-height: 1em;
+}
+
+.content_post{
+  background-color: #57C3E9;
+  height: 100px;
 }
 
  /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
