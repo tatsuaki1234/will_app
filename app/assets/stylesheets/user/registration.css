@@ -10,7 +10,7 @@
 
 /* form-wrapは商品購入画面でも使用しています */
 .form-wrap {
-  height: 1600px;
+  height: 1500px;
   width: 50%;
   background-color: white;
   padding-bottom: 70px;
@@ -65,7 +65,7 @@
 
 .info-text {
   color: #888;
-  font-size: 15px;
+  font-size: 12px;
   margin-top: 3px;
 }
 
