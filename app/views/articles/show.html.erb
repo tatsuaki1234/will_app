@@ -1,0 +1,18 @@
+<div class="contents row">
+  <div class="content_post" style="background-image: url(<%= @article.image %>);">
+    <div class="more">
+      <span><%= image_tag 'arrow_top.png' %></span>
+      <ul class="more_list">
+        <li>
+          <%# link_to '編集', edit_tweet_path(@tweet.id), method: :get %>
+        </li>
+        <li>
+          <%# link_to '削除', tweet_path(@tweet.id), method: :delete %>
+        </li>
+      </ul>
+    </div>
+    <p><%= @article.content %></p>
+    <span class="name"><%= @article.title %> title
+    </span>
+  </div>
+</div>
