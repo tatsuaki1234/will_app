@@ -1150,7 +1150,9 @@ footer {
 	justify-content: center;
 	align-items: center;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
+  left: 0;
+  right: 0;
 }
 
 /* footer p {
@@ -1185,3 +1187,5 @@ footer {
 /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
  記事詳細ページ
  ************************ */
+
+ 
