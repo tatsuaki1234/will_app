@@ -25,9 +25,11 @@
             </div>
           <% end %>
           <div class="mypage-btn">
-            <%= link_to "〇〇さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
+            <% if user_signed_in? %>
+              <%= link_to "〇〇さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
             <%# link_to "さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
             <%# link_to "マイページ", "/users/#{current_user.id}" %>
+            <% end %>
           </div>
         </div>
       </header>
