@@ -1,5 +1,44 @@
+.show-article-box{
+  height: 440px;
+  width:800px;
+  overflow-y: scroll;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
 
- .show-btns{
+.show-article{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.show-article-title{
+  font-weight:800;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+.show-article-content{
+  font-size: 12px;
+  line-height: 0;
+}
+
+.show-article-user{
+  line-height: 1em;
+}
+
+.show-content_post{
+  background-color: lightgray;
+  height: 100px;
+}
+
+
+
+
+
+
+.show-btns{
   /* display: flex;
   justify-content: center;
   flex-direction: column; */

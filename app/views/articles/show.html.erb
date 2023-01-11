@@ -1,20 +1,13 @@
-<div class="contents row">
-  <div class="content_post" style="background-image: url(<%= @article.image %>);">
-    <div class="more">
-      <span><%= image_tag 'arrow_top.png' %></span>
-      <ul class="more_list">
-        <li>
-          <%# link_to '編集', edit_tweet_path(@tweet.id), method: :get %>
-        </li>
-        <li>
-          <%# link_to '削除', tweet_path(@tweet.id), method: :delete %>
-        </li>
-      </ul>
-    </div>
-    <p><%= @article.content %></p>
-    <span class="name"><%= @article.title %></span>
+<div class="show-article">
+  <div class="show-article-box">
+        <%# <div class="content_post" style="background-image: url(<%= article.image %>
+          <p class="show-article-user">ユーザー名前</p>
+          <p class="show-article-title">『<%= @article.title %>』</p>
+          <p class="show-article-content">　<%= @article.content %></p>
+        <%# </div> %>
   </div>
 </div>
+
 
 <div class="show-btns">
     <%# if user_signed_in? %>
