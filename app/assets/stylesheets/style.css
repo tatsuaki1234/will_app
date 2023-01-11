@@ -1043,9 +1043,9 @@ form input[type="submit"]:hover {
  ************************ */
 .mypage-btn{
   position: absolute;
-  bottom: ;
+  /* bottom: ; */
   left: 200px;
-  right:;
+  /* right:; */
   height: 45px;
   width: 200px;
   /* background-color: #57C3E9; */
