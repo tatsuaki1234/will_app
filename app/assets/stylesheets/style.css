@@ -1176,6 +1176,16 @@ form input[type="submit"]:hover {
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
+  background-color: lightslategray;
+}
+
+.sankaku-top{
+  /* position: relative;
+  right: 0; */
+  position: absolute;
+      right: 0;
+      
+  
 }
 
 .main-articles{
@@ -1202,9 +1212,11 @@ form input[type="submit"]:hover {
 .content_post{
   /* background-color: lightgray; */
   border: 1px solid lightslategray;
-  border-radius: 3px;
   height: 90px;
   overflow-y: scroll;
+  margin:auto;
+  margin-right: 12px;
+  background-color: #f0f0f0;
 }
 
  /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
