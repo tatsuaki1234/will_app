@@ -1043,15 +1043,61 @@ form input[type="submit"]:hover {
  ************************ */
 .mypage-btn{
   position: absolute;
-  /* bottom: ; */
-  left: 200px;
-  /* right:; */
+  top: 0px;
   height: 45px;
-  width: 200px;
-  /* background-color: #57C3E9; */
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-weight: 600;
+}
+
+.will-btn{
+  height: 40px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-radius: 5px;
+  border: 1px solid black; */
+  font-weight: 600;
+  position: absolute;
+  left: 220px;
+  font-size: 20px;
+  border-right: 1px solid black;
+  /* border-left: 1px solid black ;  */
+}
+
+.post-2{
+  position: absolute;
+  right:-200px;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 2px solid lightslategray;
+  /* color: ; */
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.post-1{
+  position: absolute;
+  right:-50px;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: 2px solid lightslategray;
+  /* color:; */
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+  display: inline-block;
+  z-index: 2;
+}
+
+.post-3{
+  position: relative;
+  z-index: 2;
 }
 
 /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
