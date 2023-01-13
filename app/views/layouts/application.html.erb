@@ -29,9 +29,12 @@
           <% end %>
           <div class="mypage-btn">
             <% if user_signed_in? %>
-              <%= link_to "〇〇さん、こんにちは", "/users/#{current_user.id}", class: "" %>
-            <%# link_to "さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
-            <%# link_to "マイページ", "/users/#{current_user.id}" %>
+              <%= link_to "#{current_user.nickname}さん、こんにちは", "/users/#{current_user.id}", class: "" %>
+              <%# link_to "さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
+              <%# link_to "マイページ", "/users/#{current_user.id}" %>
+              <%# <p class="article-user"> %>
+                <%# article.user.nickname%>
+              <%# </p> %>
             <% end %>
           </div>
         </div>
