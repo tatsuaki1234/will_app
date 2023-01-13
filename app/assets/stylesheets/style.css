@@ -1182,10 +1182,18 @@ form input[type="submit"]:hover {
 .sankaku-top{
   /* position: relative;
   right: 0; */
+  font-size: 12px;
   position: absolute;
-      right: 0;
-      
-  
+      right: 320px;
+}
+
+.sankaku-down{
+  /* position: relative;
+  right: 0; */
+  font-size: 12px;
+  position: absolute;
+      right: 320px;
+      bottom: 62px;
 }
 
 .main-articles{
