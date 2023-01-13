@@ -3,11 +3,10 @@
         <%# <div class="content_post" style="background-image: url(<%= article.image %>
           <p class="show-article-user">ユーザー名前</p>
           <p class="show-article-title">『<%= @article.title %>』</p>
-          <p class="show-article-content">　<%= @article.content %></p>
+          <%= @article.content %>
         <%# </div> %>
   </div>
 </div>
-
 
 <div class="show-btns">
     <%# if user_signed_in? %>
