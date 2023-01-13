@@ -1,0 +1,17 @@
+.my-article-box{
+  height: 600px;
+  width:600px;
+  background-color:lightcyan;
+  /* word-break: break-all; */
+}
+
+.my-page{
+  border:1px solid black;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mypage-articles{
+
+}

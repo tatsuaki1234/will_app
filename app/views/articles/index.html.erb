@@ -23,15 +23,17 @@
   <div class="article-box">
     <h1 class ="sankaku-top">▲</h1>
     <h1 class ="sankaku-down">▼</h1>
-    <% @articles.each do |article| %>
-       <%= link_to article_path(article.id), method: :get do %>
-        <div class="content_post" style="background-image: url(<%= article.image %>);">
-          <p class="article-user"><%= article.user.nickname%></p>
-          <p class="article-title">『<%= article.title %>』</p>
-          <p class="article-content">　<%= article.content %></p>
-        </div>
+    <div class="index-articles">
+      <% @articles.each do |article| %>
+        <%= link_to article_path(article.id), method: :get do %>
+          <div class="content_post">
+            <p class="article-user"><%= article.user.nickname%></p>
+            <p class="article-title">『<%= article.title %>』</p>
+            <p class="article-content">　<%= article.content %></p>
+          </div>
+        <% end %>
       <% end %>
-    <% end %>
+    </div>
   </div>
 </div>
 
