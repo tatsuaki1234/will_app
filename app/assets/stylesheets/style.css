@@ -666,7 +666,7 @@ a {
 }
 
 a:hover {
-  color: #57C3E9;
+  color: black;
 }
 
 .bold {
@@ -718,7 +718,7 @@ header.header div.header__bar.row div.grid-6 a.post {
 .btn:hover,
 header.header div.header__bar.row div.grid-6 a.post:hover {
   border-color: #9bdbf2;
-  color: lightcoral;
+  color: #9bdbf2;
 }
 
 .title {
