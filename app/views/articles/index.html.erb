@@ -26,7 +26,7 @@
     <% @articles.each do |article| %>
        <%= link_to article_path(article.id), method: :get do %>
         <div class="content_post" style="background-image: url(<%= article.image %>);">
-          <p class="article-user">ユーザー名前</p>
+          <p class="article-user"><%= article.user.nickname%></p>
           <p class="article-title">『<%= article.title %>』</p>
           <p class="article-content">　<%= article.content %></p>
         </div>
