@@ -1,6 +1,6 @@
 class WillsController < ApplicationController
   before_action :authenticate_user!, only: [ :will_app_second_page]
-
+  before_action :set_will, only: [:edit, :show]
   def will_app_top_page
   end
 
@@ -39,5 +39,14 @@ class WillsController < ApplicationController
 
   def create
     Will.create(will_params)
+  end
+
+  private
+  def will_params
+    params.require(:will).permit(:will_address, :image, :content).merge(user_id: current_user.id)
+  end
+
+  def set_article
+    @will = Will.find(params[:id])
   end
 end
