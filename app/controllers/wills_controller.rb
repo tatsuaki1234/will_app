@@ -30,5 +30,14 @@ class WillsController < ApplicationController
 
   def index
     @wills = Will.all
+    @articles = Article.all
+  end
+
+  def new
+    @will = Will.new
+  end
+
+  def create
+    Will.create(will_params)
   end
 end

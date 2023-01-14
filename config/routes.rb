@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root to: 'articles#index'
   resources :articles, only: [:index, :new ,:create, :show, :edit, :update, :destroy]
   resources :users, only: :show
-  resources :wills, only: [:index]
+  resources :wills, only: [:index, :new, :create, :show, :edit, :update, :destroy]
   # get '/will_app_top_page/:id', to: 'patients#show'
   # HTTPメソッド 'URIパターン', to: 'コントローラー名#アクション名'
   # get 'posts', to: 'posts#index'
