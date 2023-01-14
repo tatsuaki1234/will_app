@@ -1,0 +1,10 @@
+<div class="contents row">
+  <% @wills.each do |will| %>
+    <div class="content_post" style="background-image: url(<%= will.image %>);">
+      <p><%= will.will_address %></p>
+      <span class="name">
+        <%= will.content%>
+      </span>
+    </div>
+  <% end %>
+</div>
