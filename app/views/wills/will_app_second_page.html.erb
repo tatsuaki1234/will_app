@@ -1,0 +1,25 @@
+
+
+<div class="contents row">
+  <div class="container">
+    <h2>シークレットキーを入力してください</h2>
+    <%# form_with model: @will, url: "/will_app_third_page.html.erb", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%= form_with model: @wills, url: "/will_app_third_page", id: 'new_user', class: 'new_user', local: true do |f| %>
+      <div class="field">
+        <%= f.label :secret_key %><br />
+        <%= f.text_field :secret_key, autofocus: true %>
+      </div>
+
+
+      <div class="actions">
+        <%= f.submit "次へ進む" %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+
+
+・if文でユーザー未ログイン時は、ログイン画面へ遷移
+・ログイン時の場合は、シーークレットキー入力し次のページへ

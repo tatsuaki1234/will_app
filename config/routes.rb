@@ -9,6 +9,8 @@ Rails.application.routes.draw do
   # get 'posts', to: 'posts#index'
   get 'will_app_top_page', to: 'wills#will_app_top_page'
   get 'will_app_second_page', to: 'wills#will_app_second_page'
+  post 'will_app_third_page', to: 'wills#will_app_third_page'
+  get 'will_app_4th_page', to: 'wills#will_app_4th_page'
 end
 
 
