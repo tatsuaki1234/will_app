@@ -51,8 +51,8 @@ class WillsController < ApplicationController
   end
 
   def update
-    will = Article.find(params[:id])
-    will.update(article_params)
+    will = Will.find(params[:id])
+    will.update(will_params)
   end
 
 
