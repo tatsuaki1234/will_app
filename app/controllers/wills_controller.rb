@@ -38,8 +38,14 @@ class WillsController < ApplicationController
   end
 
   def create
-    Will.create(will_params)
-    
+    # Will.create(will_params)
+    # @will = will.new(will_params)
+    # if @will.save
+    if Will.create(will_params)
+      redirect_to wills_path
+    else
+      render :new
+    end
   end
 
   private

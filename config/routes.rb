@@ -16,3 +16,19 @@ end
 
 
 # will_app_top_page GET    /will_app_top_page(.:format)       wills#will_app_top_page
+
+
+
+
+
+# wills                GET    /wills(.:format)                          wills#index
+#                      POST   /wills(.:format)                          wills#creat
+# new_will             GET    /wills/new(.:format)                      wills#new
+# edit_will            GET    /wills/:id/edit(.:format)                 wills#edit
+# will                 GET    /wills/:id(.:format)                      wills#show
+#                      PATCH  /wills/:id(.:format)                      wills#update
+#                      PUT    /wills/:id(.:format)                      wills#update
+#                      DELETE /wills/:id(.:format)                      wills#destroy
+# will_app_top_page    GET    /will_app_top_page(.:format)              wills#will_app_top_page
+# will_app_second_page GET    /will_app_second_page(.:format)           wills#will_app_second_page
+#                      POST   /wills(.:format)                          wills#index

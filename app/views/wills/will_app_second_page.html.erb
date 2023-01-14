@@ -4,22 +4,31 @@
   <div class="container">
     <h2>シークレットキーを入力してください</h2>
     <%# form_with model: @will, url: "/will_app_third_page.html.erb", id: 'new_user', class: 'new_user', local: true do |f| %>
-    <%= form_with model: @wills, url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%# form_with model: @wills , url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%# form_with url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %> 
       <div class="field">
-        <%= f.label :secret_key %><br />
-        <%= f.text_field :secret_key, autofocus: true %>
+        <%# f.label :secret_key %><br />
+        <%# f.text_field :secret_key, autofocus: true %>
       </div>
 
+    <%= form_tag('/wills', method: :get) do %> 
+      <input class="" type="text" secret_key="secret_key"> 
+      <input class="" type="submit" value="次へ進む"> 
+      <%# <input class="form-surch" type="text" id="text" name="text" >
+      <input class="form-button" type="submit" value="検索"> %>
+        <%# f.label :secret_key %><br />
+        <%# f.text_field :secret_key, autofocus: true %>
+    <% end %>
 
       <div class="actions">
-        <%= f.submit "次へ進む" %>
+        <%# f.submit "次へ進む" %>
       </div>
-    <% end %>
+    <%# end %>
   </div>
 </div>
 
 
 
-
+<%# ・ユーザー新規登録時のシークレットキーと入力したシークレットキーの比較を実装する。
 ・if文でユーザー未ログイン時は、ログイン画面へ遷移
-・ログイン時の場合は、シーークレットキー入力し次のページへ
+・ログイン時の場合は、シーークレットキー入力し次のページへ %>
