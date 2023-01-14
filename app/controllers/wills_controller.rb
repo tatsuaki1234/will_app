@@ -15,7 +15,13 @@ class WillsController < ApplicationController
   end
 
   def will_app_reader_page_3
+    @wills = current_user.wills
   end
+
+  def will_app_reader_page_4
+    @wills = current_user.wills
+  end
+
 
   def index
     # @wills = Will.all

@@ -4,10 +4,17 @@
 </div>
 
 <div class="reader-check-box">
-  <div class="reader-check-btn-yes">
-  はい
-  </div>
-  <div class="reader-check-btn-no">
-  いいえ
+  <div class="reader-check-btn-box">
+    <%# link_to "はい", will_app_reader_page_4_path(will.id), method: :get do %>
+    <%= link_to "/will_app_reader_page_4", method: :get do %>
+     <p class="reader-check-btn-yes">はい</p>
+     <p class="reader-check-btn-no">いいえ</p>
+    <% end %>
   </div>
 </div>
+
+          <%# <div class="ppoi"> %>
+            <%# link_to '商品の編集', edit_will_path(@will.id), method: :get, class: "article-edit-btn" %>
+          <%# </div> %>
+
+
