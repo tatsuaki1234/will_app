@@ -11,7 +11,8 @@ Rails.application.routes.draw do
   get 'will_app_second_page', to: 'wills#will_app_second_page'
   post 'wills', to: 'wills#index'
   get 'will_app_reader_page', to: 'wills#will_app_reader_page'
-  get 'will_app_reader_page', to: 'wills#will_app_reader_page'
+  get 'will_app_reader_page_2', to: 'wills#will_app_reader_page_2'
+  get 'will_app_reader_page_3', to: 'wills#will_app_reader_page_3'
 end
 
 

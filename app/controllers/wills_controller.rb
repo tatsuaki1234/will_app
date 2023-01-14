@@ -7,10 +7,14 @@ class WillsController < ApplicationController
   def will_app_second_page
   end
 
-  def will_app_third_page
+  def will_app_reader_page
   end
 
-  def will_app_4th_page
+  def will_app_reader_page_2
+    @wills = current_user.wills
+  end
+
+  def will_app_reader_page_3
   end
 
   def index

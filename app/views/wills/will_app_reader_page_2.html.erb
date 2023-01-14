@@ -1,0 +1,17 @@
+
+
+
+
+<%#  遺書一覧 %>
+<div class="main-wills">
+  <div class="will-box reader-box">
+    <div class="index-wills">
+        <% @wills.each do |will| %>
+          <%= link_to will_path(will.id), method: :get do %>
+            <p class="will-will_address"><%= will.will_address%></p>
+            <p class="will-content"><%# will.content %></p>
+          <% end %>
+        <% end %>
+    </div>
+  </div>
+</div>
