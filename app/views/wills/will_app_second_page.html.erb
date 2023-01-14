@@ -4,7 +4,7 @@
   <div class="container">
     <h2>シークレットキーを入力してください</h2>
     <%# form_with model: @will, url: "/will_app_third_page.html.erb", id: 'new_user', class: 'new_user', local: true do |f| %>
-    <%= form_with model: @wills, url: "/will_app_third_page", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%= form_with model: @wills, url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %>
       <div class="field">
         <%= f.label :secret_key %><br />
         <%= f.text_field :secret_key, autofocus: true %>
