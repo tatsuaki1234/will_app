@@ -5,21 +5,6 @@ class WillsController < ApplicationController
   end
 
   def will_app_second_page
-    # user = User.find_by(:secret_key params[:session][:email].downcase)
-    # if user && user.authenticate(params[:session][:password])
-    #   log_in user
-    #   redirect_to root_url
-    # else
-    #   render 'new'
-    # end
-
-    # user = User.find_by(:secret_key params[:secret_key].downcase)
-    # if user.secret_key == user.authenticate(params[:secret_key])
-    #   log_in user
-    #   redirect_to root_url
-    # else
-    #   render 'new'
-    # end
   end
 
   def will_app_third_page
@@ -54,12 +39,30 @@ class WillsController < ApplicationController
     end
   end
 
+  def show
+  end
+
+  def destroy
+    will = Will.find(params[:id])
+    will.destroy
+  end
+
+  def edit
+  end
+
+  def update
+    will = Article.find(params[:id])
+    will.update(article_params)
+  end
+
+
+
   private
   def will_params
     params.require(:will).permit(:will_address, :image, :content).merge(user_id: current_user.id)
   end
 
-  def set_article
+  def set_will
     @will = Will.find(params[:id])
   end
 end

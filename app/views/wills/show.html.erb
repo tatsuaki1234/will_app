@@ -1,0 +1,24 @@
+<%#  遺書詳細 %>
+<div class="will-show-box">
+  <div class="will-show-content">
+    <p class="will-will_address"><%= @will.will_address%></p>
+    <p class="will-content"><%= @will.content %></p>
+  </div>
+</div>
+
+<div class="show-btns">
+    <%# if user_signed_in? %>
+      <%# if current_user.id == @item.user_id %>
+        <%# unless @item.order.present? %>
+          <div class="ppoi">
+            <%= link_to '商品の編集', edit_will_path(@will.id), method: :get, class: "article-edit-btn" %>
+          </div>
+          <div class='or-text'>or</div>
+          <div class="ppoi">
+            <%= link_to '削除', will_path(@will.id), method: :delete, class:'article-destroy-btn' %>
+          </div>
+        <%# end %>
+      <%# end %>
+    <%# end %>
+</div>
+
