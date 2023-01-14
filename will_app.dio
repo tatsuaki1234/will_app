@@ -121,12 +121,12 @@
                         <mxGeometry x="575" y="547" width="135" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to:user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to: will_address&lt;/span&gt;&lt;/div&gt;" placeholders="1" name="Variable" id="93">
+                <UserObject label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to:user&lt;/span&gt;&lt;/div&gt;" placeholders="1" name="Variable" id="93">
                     <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
                         <mxGeometry x="91" y="750" width="135" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <mxCell id="94" value="&lt;ul&gt;&lt;li&gt;will_appボタンで本人様確認&lt;/li&gt;&lt;li&gt;（本人）未ログインの場合はログイン画面へ、ログイン状態の場合は、シークレットキー入力後、遺書一覧、編集削除ができる。&lt;/li&gt;&lt;li&gt;（遺族）本人様のフルネーム、生年月日入力後、遺書の宛先一覧が見れる。&lt;/li&gt;&lt;li&gt;あれ先一覧をクリックすると、宛先様ですか？と問われ「はい」を押すと遺書内容を閲覧することができる。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+                <mxCell id="94" value="&lt;ul&gt;&lt;li&gt;will_appボタンで本人様確認&lt;/li&gt;&lt;li&gt;（本人）未ログインの場合はログイン画面へ、ログイン状態の場合は、シークレットキー入力後、遺書作成、一覧、編集削除ができる。&lt;/li&gt;&lt;li&gt;（遺族）本人様のフルネーム、生年月日入力後、遺書の宛先一覧が見れる。&lt;/li&gt;&lt;li&gt;あれ先一覧をクリックすると、宛先様ですか？と問われ「はい」を押すと遺書内容を閲覧することができる。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
                     <mxGeometry x="280" y="651" width="310" height="269" as="geometry"/>
                 </mxCell>
             </root>
