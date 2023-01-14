@@ -39,6 +39,7 @@ class WillsController < ApplicationController
 
   def create
     Will.create(will_params)
+    
   end
 
   private

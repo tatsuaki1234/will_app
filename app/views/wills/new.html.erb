@@ -1,11 +1,11 @@
 <div class="contents row">
   <div class="container">
-    <h3>記事を投稿する</h3>
-    <%= form_with(model: @article, local: true) do |form| %>
-      <%= form.text_field :title, placeholder: "タイトル" %>
+    <h3>遺書を作成する</h3>
+    <%= form_with(model: @will, local: true) do |form| %>
+      <%= form.text_field :will_address, placeholder: "宛名" %>
       <%= form.text_field :image, placeholder: "画像 URL" %>
-      <%= form.text_area :content, placeholder: "記事内容", rows: "10" %>
-      <%= form.submit "投稿する" %>
+      <%= form.text_area :content, placeholder: "遺書内容", rows: "10" %>
+      <%= form.submit "保存する" %>
     <% end %>
   </div>
 </div>
