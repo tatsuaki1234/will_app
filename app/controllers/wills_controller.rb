@@ -30,7 +30,9 @@ class WillsController < ApplicationController
 
   def index
     @wills = Will.all
-    @articles = Article.all
+    # @will = Will.find(13)
+    # @will = Will.all
+    # @articles = Article.all
   end
 
   def new

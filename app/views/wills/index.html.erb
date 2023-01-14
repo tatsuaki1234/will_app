@@ -14,20 +14,25 @@
 <div class="main-wills">
   <div class="will-box">
     <div class="index-wills">
-      <% @wills.each do |will| %>
-        <% link_to will_path(will.id), method: :get do %>
-          <div class="will-content">
-            <p class="will-user"><%= will.will_address%></p>
-            <p class="article-content">　<%= will.content %></p>
-          </div>
-        <% end %>
-      <% end %>
+    <% if @wills.exists? %>
+    <%# if user_signed_in? && current_user.id == 1 %>
+      <%# @current_user.wills.each do |will| %>
+        <%# link_to will_path(will.id), method: :get do %>
+        <%# <p>遺書一覧がここに表示されます</p> %>
+        <p class="will-user"><%# @will.will_address%></p>
+        <%# <p class="will-content">@will.content</p> %>
+        <%= @wills.will_address%>
+        <%= @wills.content %>
+    <% else %>
+          <%# <div class="will-content"> %>
+            <p>遺書一覧がここに表示されます</p>
+          <%# </div> %>
+        <%# end %>
+      <%# end %>
+    <% end %>
     </div>
   </div>
 </div>
-
-
-
 
 
 
