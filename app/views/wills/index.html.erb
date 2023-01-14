@@ -7,31 +7,19 @@
 
 
 <%#  遺書一覧 %>
-<div class="will-name">
-<p><%# current_user.nickname %>
-<%# さんの遺書一覧</p> %>
-</div>
 <div class="main-wills">
   <div class="will-box">
     <div class="index-wills">
-    <%# if user_signed_in? && current_user.id == 1 %>
-    <% if @wills.exists? %>
-      <% @wills.each do |will| %>
-        <%= link_to will_path(will.id), method: :get do %>
-          <p class="will-user"><%= will.will_address%></p>
-          <p class="will-content"><%= will.content %></p>
-          <%# @wills.will_address%>
-          <%# @wills.content %>
-          <%# @wills.content %>
+      <% if @wills.exists? %>
+        <% @wills.each do |will| %>
+          <%= link_to will_path(will.id), method: :get do %>
+            <p class="will-will_address"><%= will.will_address%></p>
+            <p class="will-content"><%# will.content %></p>
+          <% end %>
         <% end %>
+      <% else %>
+        <p>遺書の宛名がここに一覧表示されます。</p>
       <% end %>
-    <% else %>
-          <%# <div class="will-content"> %>
-            <p>遺書一覧がここに表示されます</p>
-          <%# </div> %>
-        <%# end %>
-      <%# end %>
-    <% end %>
     </div>
   </div>
 </div>
