@@ -1,14 +1,17 @@
 <%#  遺書宛名チェック %>
 <div class="reader-check-title-box">
   <h1 class="reader-check-title">宛名様ご本人でお間違えないでしょうか？</h1>
+  <%# will.will_address%>
 </div>
 
 <div class="reader-check-box">
   <div class="reader-check-btn-box">
     <%# link_to "はい", will_app_reader_page_4_path(will.id), method: :get do %>
     <%= link_to "/will_app_reader_page_4", method: :get do %>
-     <p class="reader-check-btn-yes">はい</p>
-     <p class="reader-check-btn-no">いいえ</p>
+      <p class="reader-check-btn-yes">はい</p>
+    <% end %>
+    <%= link_to "/will_app_reader_page_2", method: :get do %>
+      <p class="reader-check-btn-no">いいえ</p>
     <% end %>
   </div>
 </div>

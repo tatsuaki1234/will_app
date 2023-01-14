@@ -180,13 +180,22 @@
  will-reader-page-3
  ************************ */
 
- 
+
   /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
  will-reader-page-4
  ************************ */
 
+.will-reader-btn-box{
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
 
-
+.will-reader-btn{
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
   /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
  will-reader-page-4
  ************************ */

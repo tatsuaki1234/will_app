@@ -1,17 +1,11 @@
 <%#  遺書閲覧 %>
 
-<div class="main-wills">
-  <div class="will-box reader-box">
-    <div class="index-wills">
-        <% @wills.each do |will| %>
-          <%= link_to will_app_reader_page_3_path(will.id), method: :get do %>
-            <p class="will-will_address"><%= will.will_address%></p>
-            <p class="will-content"><%= will.content %></p>
-          <% end %>
-        <% end %>
-    </div>
-  </div>
+
+
+<div>
+  <p class="will-content"><%= @will.content %></p>
 </div>
+
 
 <div class="will-reader-btn-box">
   <%= link_to "/will_app_reader_page_2", method: :get do %>
