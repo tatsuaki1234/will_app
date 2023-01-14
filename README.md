@@ -26,6 +26,7 @@
 | --------------------- | ---------- | ------------------------------ |
 | title                 | string     | null: false                    |
 | content               | text       | null: false                    |
+| image                 | text       | null: false                    |
 | user                  | references | null: false, foreign_key: true |
 
 ### Association
@@ -56,9 +57,10 @@
 
 | Column          | Type       | Options                        |
 | ---------       | ---------- | ------------------------------ |
-| content         | string     | null: false                    |
-| user           | references | null: false, foreign_key: true |
-| will_address   | references | null: false, foreign_key: true |
+| content         | text       | null: false                    |
+| image           | text       | null: false                    |
+| user            | references | null: false, foreign_key: true |
+| will_address    | references | null: false, foreign_key: true |
 
 
 ### Association

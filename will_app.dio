@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="p4G7GyhmdaZ9alzyhCs6" name="ページ1">
-        <mxGraphModel dx="932" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="591" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -16,17 +16,11 @@
                 <mxCell id="31" value="title&#10;&#10;content&#10;&#10;user" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="29" vertex="1">
                     <mxGeometry y="26" width="140" height="104" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="will_addresses&#10;遺書宛先" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="320" y="651" width="140" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" value="name&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="32" vertex="1">
-                    <mxGeometry y="26" width="140" height="34" as="geometry"/>
-                </mxCell>
                 <mxCell id="35" value="wills&#10;遺書コンテンツ" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-                    <mxGeometry x="80" y="630" width="140" height="120" as="geometry"/>
+                    <mxGeometry x="80" y="630" width="140" height="140" as="geometry"/>
                 </mxCell>
-                <mxCell id="37" value="content&#10;&#10;user&#10;&#10;article" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="35" vertex="1">
-                    <mxGeometry y="26" width="140" height="94" as="geometry"/>
+                <mxCell id="37" value="will_address&#10;&#10;content&#10;&#10;image&#10;&#10;user&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="35" vertex="1">
+                    <mxGeometry y="26" width="140" height="114" as="geometry"/>
                 </mxCell>
                 <mxCell id="38" value="comments&#10;就活記事コメント" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
                     <mxGeometry x="486" y="456" width="140" height="110" as="geometry"/>
@@ -57,27 +51,6 @@
                 </mxCell>
                 <mxCell id="53" value="" style="line;strokeWidth=2;html=1;rotation=-225;" parent="1" vertex="1">
                     <mxGeometry x="127" y="614" width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="54" value="" style="line;strokeWidth=2;html=1;rotation=90;" parent="1" vertex="1">
-                    <mxGeometry x="226" y="690" width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="55" value="" style="line;strokeWidth=2;html=1;rotation=90;" parent="1" vertex="1">
-                    <mxGeometry x="220" y="440" width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="56" value="" style="line;strokeWidth=2;html=1;rotation=-180;" vertex="1" parent="1">
-                    <mxGeometry x="220" y="690" width="100" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="61" value="" style="line;strokeWidth=2;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="219" y="440" width="141" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="62" value="" style="line;strokeWidth=2;html=1;rotation=90;" vertex="1" parent="1">
-                    <mxGeometry x="256" y="544" width="207.5" height="8" as="geometry"/>
-                </mxCell>
-                <mxCell id="63" value="" style="line;strokeWidth=2;html=1;rotation=-45;" vertex="1" parent="1">
-                    <mxGeometry x="334" y="635" width="30" height="10" as="geometry"/>
-                </mxCell>
-                <mxCell id="64" value="" style="line;strokeWidth=2;html=1;rotation=45;" vertex="1" parent="1">
-                    <mxGeometry x="356" y="635" width="30" height="10" as="geometry"/>
                 </mxCell>
                 <mxCell id="65" value="" style="line;strokeWidth=2;html=1;rotation=90;" vertex="1" parent="1">
                     <mxGeometry x="507.5" y="398.5" width="105" height="10" as="geometry"/>
@@ -127,9 +100,6 @@
                         <mxPoint x="710" y="419.996" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="83" value="" style="line;strokeWidth=2;html=1;rotation=90;" vertex="1" parent="1">
-                    <mxGeometry x="288" y="690" width="30" height="10" as="geometry"/>
-                </mxCell>
                 <mxCell id="85" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;system-ui&amp;#34; , &amp;#34;noto sans jp&amp;#34; , &amp;#34;hiragino sans&amp;#34; , &amp;#34;hiragino kaku gothic pron&amp;#34; , &amp;#34;segoe ui&amp;#34; , , &amp;#34;meiryo&amp;#34; , &amp;#34;ｍｓ ｐゴシック&amp;#34; , &amp;#34;ms pgothic&amp;#34; , sans-serif ; font-size: 14.24px ; font-weight: 400 ; letter-spacing: 1.6px ; text-align: left ; background-color: rgb(255 , 255 , 255)&quot;&gt;Active Storage&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
                     <mxGeometry x="600" y="671" width="100" height="40" as="geometry"/>
                 </mxCell>
@@ -151,16 +121,14 @@
                         <mxGeometry x="575" y="547" width="135" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
-                <UserObject label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to:user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to: will&lt;/span&gt;&lt;/div&gt;" placeholders="1" name="Variable" id="92">
-                    <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
-                        <mxGeometry x="322.5" y="711" width="135" height="60" as="geometry"/>
-                    </mxCell>
-                </UserObject>
                 <UserObject label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to:user&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;belongs_to: will_address&lt;/span&gt;&lt;/div&gt;" placeholders="1" name="Variable" id="93">
                     <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
                         <mxGeometry x="91" y="750" width="135" height="60" as="geometry"/>
                     </mxCell>
                 </UserObject>
+                <mxCell id="94" value="&lt;ul&gt;&lt;li&gt;will_appボタンで本人様確認&lt;/li&gt;&lt;li&gt;（本人）未ログインの場合はログイン画面へ、ログイン状態の場合は、シークレットキー入力後、遺書一覧、編集削除ができる。&lt;/li&gt;&lt;li&gt;（遺族）本人様のフルネーム、生年月日入力後、遺書の宛先一覧が見れる。&lt;/li&gt;&lt;li&gt;あれ先一覧をクリックすると、宛先様ですか？と問われ「はい」を押すと遺書内容を閲覧することができる。&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="651" width="310" height="269" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
