@@ -1,0 +1,37 @@
+<%#  遺書閲覧用ログイン %>
+<div class="contents row">
+  <div class="container">
+    <%# <h2>作成者様のフルネームをご入力ください</h2> %>
+    <%# form_with model: @will, url: "/will_app_third_page.html.erb", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%# form_with model: @wills , url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %>
+    <%# form_with url: "/wills", id: 'new_user', class: 'new_user', local: true do |f| %> 
+      <div class="field">
+        <%# f.label :secret_key %><br />
+        <%# f.text_field :secret_key, autofocus: true %>
+      </div>
+
+    <%= form_tag('/wills', method: :get) do %> 
+      <h2>作成者様のフルネームをご入力ください</h2>
+      <input class="" type="text" name="name"> 
+      <h2>作成者様の生年月日をご入力ください</h2>
+      <input class="" type="date" day_of_birth="day_of_birth"> 
+      <input class="" type="submit" value="次へ進む"> 
+      <%# <input class="form-surch" type="text" id="text" name="text" >
+      <input class="form-button" type="submit" value="検索"> %>
+        <%# f.label :secret_key %><br />
+        <%# f.text_field :secret_key, autofocus: true %>
+    <% end %>
+
+      <div class="actions">
+        <%# f.submit "次へ進む" %>
+      </div>
+    <%# end %>
+  </div>
+</div>
+
+
+<%#  遺書閲覧用ログイン %>
+<%#  遺書宛名チェック %>
+<%#  遺書閲覧 %>
+
+
