@@ -1,27 +1,7 @@
-<%# <div class="contents row"> %>
-  
-
-
-
 <%= form_with(url: search_articles_path, local: true, method: :get, class: "search-form") do |form| %>
   <%= form.text_field :keyword, placeholder: "投稿を検索する", class: "search-input" %>
   <%= form.submit "検索", class: "search-btn" %>
 <% end %>
-
-
-<div class="main-icon">
-  <div class="popular-icon">
-    <!-- <img src="image/23265114.jpg" class="popular-picture"> -->
-    <p class="popular-text">人気</p>
-  </div>
-  <div class="view_history-icon">
-    <!-- <img src="image/view_history.jpg" class="view_history-picture"> -->
-    <p class="view_history-text">閲覧履歴</p>
-  </div>
-  <div class="favorite-icon">お気に入り</div>
-  <div class="sorting-icon">並べ変え</div>
-</div>
-
 
 <div class="main-articles">
   <div class="article-box">

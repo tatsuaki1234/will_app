@@ -1,5 +1,6 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:edit, :show]
+  # before_action :move_to_index, except: [:index, :show, :search]
 
   def index
     @articles = Article.all
@@ -27,6 +28,10 @@ class ArticlesController < ApplicationController
   def update
     article = Article.find(params[:id])
     article.update(article_params)
+  end
+
+  def search
+    @articles = Article.search(params[:keyword])
   end
 
   private
