@@ -3,12 +3,12 @@
 
 
 <div>
-  <p class="will-content"><%= @will.content %></p>
+  <p class="will-content"><%# @will.content %></p>
 </div>
 
 
 <div class="will-reader-btn-box">
-  <%= link_to "/will_app_reader_page_2", method: :get do %>
+  <%= link_to will_will_app_reader_page_2_path, method: :get do %>
     <p class="will-reader-btn">遺書宛先一覧へ戻る</p>
   <% end %>
 </div>
@@ -20,7 +20,7 @@
 <%#  遺書詳細 %>
 <div class="will-show-box">
   <div class="will-show-content">
-    <p class="will-will_address"><%= @will.will_address%></p>
-    <p class="will-content"><%= @will.content %></p>
+    <p class="will-will_address"><%# @will.will_address%></p>
+    <p class="will-content"><%# @will.content %></p>
   </div>
 </div>
