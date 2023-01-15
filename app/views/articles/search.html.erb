@@ -4,7 +4,6 @@
 <% end %>
 
 
-
 <% if @articles.size == 0 %>
   <h1 class="article-serch-message">検索結果は0件でした。</h1>
 <% else %>
@@ -13,8 +12,6 @@
   </div>
   <div class="main-articles">
     <div class="article-box">
-      <%# <h1 class ="sankaku-top">▲</h1>
-      <h1 class ="sankaku-down">▼</h1> %>
       <div class="index-articles">
         <% @articles.each do |article| %>
           <%= link_to article_path(article.id), method: :get do %>
@@ -29,11 +26,3 @@
     </div>
   </div>
 <% end %>
-
-<%# @ownersinfo.each do |ownersinfo| %>
-  <p><%# @articles.count %></p>
-<%# end %>
-
-<%# if @rticles.size == 0 %>
- <%# <p>検索結果がありませんでした</p> %>
-<%#% end %>
