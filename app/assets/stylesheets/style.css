@@ -986,6 +986,7 @@ div.contents.row .success h3 {
 form input,
 form textarea {
   width: 100%;
+  height: 50px;
   margin: 5px 0 15px;
   padding: 10px;
   border: 1px solid #D8D8D8;
@@ -994,15 +995,16 @@ form textarea {
 }
 
 form input[type="submit"] {
-  background-color: #57C3E9;
-  border-radius: 20px;
-  color: #fff;
-  border: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: lightslategray;
   font-size: 18px;
+  background-color:white;
+  font-weight:600;
 }
 
 form input[type="submit"]:hover {
-  background-color: #84d3ef;
+  color: black;
 }
 
 .container {
@@ -1156,6 +1158,7 @@ form input[type="submit"]:hover {
 
 .search-form .search-btn {
   width: 10%;
+  /* background-color: lightslategray; */
 }
 
 
@@ -1167,7 +1170,6 @@ form input[type="submit"]:hover {
 /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
  トップページ記事一覧
  ************************ */
-
 
  .article-box{
   height: 500px;
