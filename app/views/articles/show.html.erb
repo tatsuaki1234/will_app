@@ -9,9 +9,9 @@
 </div>
 
 <div class="show-btns">
-    <%# if user_signed_in? %>
-      <%# if current_user.id == @item.user_id %>
-        <%# unless @item.order.present? %>
+    <% if user_signed_in? %>
+      <% if current_user.id == @article.user_id %>
+        <%# unless @article.order.present? %>
           <div class="ppoi">
             <%= link_to '商品の編集', edit_article_path(@article.id), method: :get, class: "article-edit-btn" %>
           </div>
@@ -20,6 +20,6 @@
             <%= link_to '削除', article_path(@article.id), method: :delete, class:'article-destroy-btn' %>
           </div>
         <%# end %>
-      <%# end %>
-    <%# end %>
+      <% end %>
+    <% end %>
 </div>
