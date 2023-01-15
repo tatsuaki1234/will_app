@@ -17,7 +17,6 @@ class WillsController < ApplicationController
 
   def will_app_reader_page_3
     @wills = current_user.wills
-    # @wills = Will.find(params[:id])
   end
 
   def will_app_reader_page_4

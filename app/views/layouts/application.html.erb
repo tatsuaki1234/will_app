@@ -13,7 +13,6 @@
       <header class="header">
         <div class="wipp-box">
           <h1 class="will-btn"><a href="/wills/:will_id/will_app_top_page">Will_APP</h1>
-           <%# wills GET    /wills(.:format)               wills#index %>
         </div>
         <div class="header__bar row">
           <h1 class="grid-6 post-3"><a href="/">終活掲示板</a></h1>
@@ -31,11 +30,6 @@
           <div class="mypage-btn">
             <% if user_signed_in? %>
               <%= link_to "#{current_user.nickname}さん、こんにちは", "/users/#{current_user.id}", class: "" %>
-              <%# link_to "さん、こんにちは", "/users/#{current_user.id}", class: "post" %>
-              <%# link_to "マイページ", "/users/#{current_user.id}" %>
-              <%# <p class="article-user"> %>
-                <%# article.user.nickname%>
-              <%# </p> %>
             <% end %>
           </div>
         </div>

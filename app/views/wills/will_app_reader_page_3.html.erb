@@ -1,16 +1,11 @@
 <%#  遺書宛名チェック %>
 <div class="reader-check-title-box">
   <h1 class="reader-check-title">宛名様ご本人でお間違えないでしょうか？</h1>
-  <%# will.will_address%>
 </div>
 
 <div class="reader-check-box">
   <div class="reader-check-btn-box">
-    <%# link_to "/will_app_reader_page_4", method: :get do %>
-    <%# link_to 'Index Page', "/will_app_reader_page_4", method: :get do %>
-    <%# link_to "/will_app_reader_page_4#{@wills.ids}", method: :get do %>
     <%= link_to will_will_app_reader_page_4_path, method: :get do %>
-    <%# link_to "表示文字列", controller: :posts, action: :show, id: 100 %>
       <p class="reader-check-btn-yes">はい</p>
     <% end %>
     <%= link_to will_will_app_reader_page_2_path, method: :get do %>
@@ -18,9 +13,5 @@
     <% end %>
   </div>
 </div>
-
-          <%# <div class="ppoi"> %>
-            <%# link_to '商品の編集', edit_will_path(@will.id), method: :get, class: "article-edit-btn" %>
-          <%# </div> %>
 
 

@@ -7,18 +7,12 @@
 </div>
 
 <div class="show-btns">
-    <%# if user_signed_in? %>
-      <%# if current_user.id == @item.user_id %>
-        <%# unless @item.order.present? %>
-          <div class="ppoi">
-            <%= link_to '商品の編集', edit_will_path(@will.id), method: :get, class: "article-edit-btn" %>
-          </div>
-          <div class='or-text'>or</div>
-          <div class="ppoi">
-            <%= link_to '削除', will_path(@will.id), method: :delete, class:'article-destroy-btn' %>
-          </div>
-        <%# end %>
-      <%# end %>
-    <%# end %>
+  <div class="ppoi">
+    <%= link_to '商品の編集', edit_will_path(@will.id), method: :get, class: "article-edit-btn" %>
+  </div>
+  <div class='or-text'>or</div>
+  <div class="ppoi">
+    <%= link_to '削除', will_path(@will.id), method: :delete, class:'article-destroy-btn' %>
+  </div>
 </div>
 
