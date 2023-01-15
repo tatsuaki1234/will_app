@@ -3,7 +3,7 @@
   <div class="will-box reader-box">
     <div class="index-wills">
         <% @wills.each do |will| %>
-          <%= link_to will_app_reader_page_3_path(will.id), method: :get do %>
+          <%= link_to will_will_app_reader_page_3_path(will.id), method: :get do %>
             <p class="will-will_address"><%= will.will_address%></p>
             <p class="will-content"><%# will.content %></p>
           <% end %>

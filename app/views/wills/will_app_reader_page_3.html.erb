@@ -6,11 +6,14 @@
 
 <div class="reader-check-box">
   <div class="reader-check-btn-box">
-    <%# link_to "はい", will_app_reader_page_4_path(will.id), method: :get do %>
-    <%= link_to "/will_app_reader_page_4", method: :get do %>
+    <%# link_to "/will_app_reader_page_4", method: :get do %>
+    <%# link_to 'Index Page', "/will_app_reader_page_4", method: :get do %>
+    <%# link_to "/will_app_reader_page_4#{@wills.ids}", method: :get do %>
+    <%= link_to will_will_app_reader_page_4_path, method: :get do %>
+    <%# link_to "表示文字列", controller: :posts, action: :show, id: 100 %>
       <p class="reader-check-btn-yes">はい</p>
     <% end %>
-    <%= link_to "/will_app_reader_page_2", method: :get do %>
+    <%= link_to will_will_app_reader_page_2_path, method: :get do %>
       <p class="reader-check-btn-no">いいえ</p>
     <% end %>
   </div>
