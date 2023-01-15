@@ -1,6 +1,7 @@
 class WillsController < ApplicationController
   before_action :authenticate_user!, only: [ :will_app_second_page]
   before_action :set_will, only: [:edit, :show]
+  before_action :set_current_will, only: [:will_app_reader_page_2, :will_app_reader_page_3, :will_app_reader_page_4, :index]
 
   def will_app_top_page
   end
@@ -12,15 +13,15 @@ class WillsController < ApplicationController
   end
 
   def will_app_reader_page_2
-    @wills = current_user.wills
+    # @wills = current_user.wills
   end
 
   def will_app_reader_page_3
-    @wills = current_user.wills
+    # @wills = current_user.wills
   end
 
   def will_app_reader_page_4
-    @wills = current_user.wills
+    # @wills = current_user.wills
     @will = Will.find(params[:will_id])
   end
 
@@ -32,7 +33,9 @@ class WillsController < ApplicationController
     # @articles = Article.all
     # @wills = current_user.objectives.all.order(created_at: :desc)
     # @wills = current_user.Wills.all.order(created_at: :desc)
-    @wills = current_user.wills
+
+    # @wills = current_user.wills
+    
     # @wills = Will.find(current_user.wills)
   end
 
@@ -76,5 +79,9 @@ class WillsController < ApplicationController
 
   def set_will
     @will = Will.find(params[:id])
+  end
+
+  def set_current_will
+    @wills = current_user.wills
   end
 end
