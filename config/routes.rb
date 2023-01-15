@@ -14,8 +14,6 @@ Rails.application.routes.draw do
     get 'will_app_reader_page_2', to: 'wills#will_app_reader_page_2'
     get 'will_app_reader_page_3', to: 'wills#will_app_reader_page_3'
     get 'will_app_reader_page_4', to: 'wills#will_app_reader_page_4'
-    get 'will_app_reader_page_4/:id', to: 'wills#show'
-    get 'posts/:id', to: 'posts#show'
   end
 end
 

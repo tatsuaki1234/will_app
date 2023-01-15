@@ -1,7 +1,7 @@
 class WillsController < ApplicationController
   before_action :authenticate_user!, only: [ :will_app_second_page]
   before_action :set_will, only: [:edit, :show]
-  
+
   def will_app_top_page
   end
 
@@ -22,7 +22,7 @@ class WillsController < ApplicationController
 
   def will_app_reader_page_4
     @wills = current_user.wills
-    # @will = Will.find(params[:id])
+    @will = Will.find(params[:will_id])
   end
 
 
