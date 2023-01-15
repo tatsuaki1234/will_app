@@ -32,6 +32,7 @@ class ArticlesController < ApplicationController
 
   def search
     @articles = Article.search(params[:keyword])
+    @articles.count
   end
 
   private

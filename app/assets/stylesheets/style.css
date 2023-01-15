@@ -1291,3 +1291,21 @@ footer {
  記事詳細ページ
  ************************ */
 
+
+ /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+ 記事検索ページ
+ ************************ */
+.article-serch-message{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.article-serch-message-hit{
+  display: flex;
+  justify-content: center;
+}
+/*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
+ 記事検索ページ
+ ************************ */
+

@@ -3,20 +3,37 @@
   <%= form.submit "検索", class: "search-btn" %>
 <% end %>
 
-<div class="main-articles">
-  <div class="article-box">
-    <h1 class ="sankaku-top">▲</h1>
-    <h1 class ="sankaku-down">▼</h1>
-    <div class="index-articles">
-      <% @articles.each do |article| %>
-        <%= link_to article_path(article.id), method: :get do %>
-          <div class="content_post">
-            <p class="article-user"><%= article.user.nickname%></p>
-            <p class="article-title">『<%= article.title %>』</p>
-            <p class="article-content">　<%= article.content %></p>
-          </div>
+
+
+<% if @articles.size == 0 %>
+  <h1 class="article-serch-message">検索結果は0件でした。</h1>
+<% else %>
+  <div class="article-serch-message-hit">
+    <h1 class="">検索結果は<%= @articles.count %>件でした。</h1>
+  </div>
+  <div class="main-articles">
+    <div class="article-box">
+      <%# <h1 class ="sankaku-top">▲</h1>
+      <h1 class ="sankaku-down">▼</h1> %>
+      <div class="index-articles">
+        <% @articles.each do |article| %>
+          <%= link_to article_path(article.id), method: :get do %>
+            <div class="content_post">
+              <p class="article-user"><%= article.user.nickname%></p>
+              <p class="article-title">『<%= article.title %>』</p>
+              <p class="article-content">　<%= article.content %></p>
+            </div>
+          <% end %>
         <% end %>
-      <% end %>
+      </div>
     </div>
   </div>
-</div>
+<% end %>
+
+<%# @ownersinfo.each do |ownersinfo| %>
+  <p><%# @articles.count %></p>
+<%# end %>
+
+<%# if @rticles.size == 0 %>
+ <%# <p>検索結果がありませんでした</p> %>
+<%#% end %>
