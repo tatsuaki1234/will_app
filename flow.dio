@@ -1,0 +1,228 @@
+<mxfile host="65bd71144e">
+    <diagram id="WeRyzMr___jOXDd31B6x" name="ページ1">
+        <mxGraphModel dx="1136" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <UserObject label="トップページ" treeRoot="1" id="22">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="40" y="160" width="80" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="ユーザーログインページ" treeRoot="1" id="136">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="160" y="160" width="140" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="遺書作成者本人" treeRoot="1" id="146">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="349" y="279" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;font style=&quot;font-size: 8px&quot;&gt;はい&lt;/font&gt;" treeRoot="1" id="148">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" collapsed="1" parent="1">
+                        <mxGeometry x="878" y="354" width="27" height="14" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="ユーザー新規登録ページ" treeRoot="1" id="151">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="160" y="240" width="140" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Will_APPページ" treeRoot="1" id="152">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="160" y="320" width="140" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="記事詳細ページ" treeRoot="1" id="153">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="160" y="400" width="140" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="閲覧者" treeRoot="1" id="154">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="349" y="360" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="シークレットキー入力ページ" treeRoot="1" id="155">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="491" y="280" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="遺書新規作成&lt;br&gt;ページ" treeRoot="1" id="156">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="631" y="239" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="遺書詳細&lt;br&gt;ページ" treeRoot="1" id="157">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="631" y="308" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="174" value="" style="edgeStyle=none;html=1;fontSize=8;" edge="1" parent="1" source="159" target="160">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <UserObject label="作成者情報入力&lt;br&gt;ページ" treeRoot="1" id="159">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="491" y="360" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="宛先一覧&lt;br&gt;ページ" treeRoot="1" id="160">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="631" y="360" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="遺書閲覧&lt;br&gt;ページ" treeRoot="1" id="161">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="910" y="360" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="162" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="872" y="373.77" as="sourcePoint"/>
+                        <mxPoint x="910" y="374" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="&lt;span style=&quot;font-size: 8px&quot;&gt;いいえ&lt;/span&gt;" treeRoot="1" id="164">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" collapsed="1" parent="1">
+                        <mxGeometry x="772" y="430" width="39" height="19" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="166" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="872.5" y="385" as="sourcePoint"/>
+                        <mxPoint x="891" y="385" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="167" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="891" y="385" as="sourcePoint"/>
+                        <mxPoint x="891" y="425" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="168" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="680" y="401" as="sourcePoint"/>
+                        <mxPoint x="680" y="401" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="680" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <UserObject label="宛先者確認&lt;br&gt;ページ" treeRoot="1" id="169">
+                    <mxCell style="whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fillColor=#CCCCCC;" vertex="1" parent="1">
+                        <mxGeometry x="771" y="360" width="101" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="171" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="680" y="425" as="sourcePoint"/>
+                        <mxPoint x="891" y="425.0000000000001" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="732.0000000000002" y="379.77" as="sourcePoint"/>
+                        <mxPoint x="770" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="173" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="592.0000000000002" y="379.77" as="sourcePoint"/>
+                        <mxPoint x="630" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="175" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450.0000000000002" y="379.77" as="sourcePoint"/>
+                        <mxPoint x="490" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="176" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450.0000000000002" y="299.77" as="sourcePoint"/>
+                        <mxPoint x="490" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="177" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="325" y="299.77" as="sourcePoint"/>
+                        <mxPoint x="349" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="178" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="325" y="379.77" as="sourcePoint"/>
+                        <mxPoint x="349" y="380.00000000000006" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="179" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="325" y="380" as="sourcePoint"/>
+                        <mxPoint x="325" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="180" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="300" y="340" as="sourcePoint"/>
+                        <mxPoint x="325" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="182" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="259.77" as="sourcePoint"/>
+                        <mxPoint x="630" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="183" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="329.77" as="sourcePoint"/>
+                        <mxPoint x="630" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="184" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="610" y="330" as="sourcePoint"/>
+                        <mxPoint x="610" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="185" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="592" y="300" as="sourcePoint"/>
+                        <mxPoint x="610" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="186" value="" style="endArrow=none;html=1;fontSize=8;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="139" y="420" as="sourcePoint"/>
+                        <mxPoint x="139" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="187" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="139" y="259.77" as="sourcePoint"/>
+                        <mxPoint x="160" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="189" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="139" y="339.7699999999999" as="sourcePoint"/>
+                        <mxPoint x="160" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="190" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="139" y="419.77" as="sourcePoint"/>
+                        <mxPoint x="160" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="191" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="120" y="179.76999999999992" as="sourcePoint"/>
+                        <mxPoint x="160" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
