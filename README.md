@@ -99,11 +99,18 @@ iPhoneのメモアプリに遺書を届けたい相手と内容を書き出し�
 
   <br> -->
   
-<!-- # 実装した機能についての画像がGIFおよびその説明
-あああ
+# 実装した機能についてのGIFおよびその説明
+### 終活記事一覧  
+[![Image from Gyazo](https://i.gyazo.com/427776cbb1a189054c8b9ab6b30bc7bd.gif)](https://gyazo.com/427776cbb1a189054c8b9ab6b30bc7bd)
+
+### 終活記事投稿  
+
+
+### Will_APPの遺書一覧(本人用ページ)  
+[![Image from Gyazo](https://i.gyazo.com/f35bd5c6f8f50f49284b1ccbe5dd951e.gif)](https://gyazo.com/f35bd5c6f8f50f49284b1ccbe5dd951e)
 
   <br>
-   -->
+  
 # 実施予定の機能
 - 終活記事へのコメント機能
 - 記事のお気に入り機能
