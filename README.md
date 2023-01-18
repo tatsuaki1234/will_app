@@ -104,7 +104,7 @@ iPhoneのメモアプリに遺書を届けたい相手と内容を書き出し�
 [![Image from Gyazo](https://i.gyazo.com/427776cbb1a189054c8b9ab6b30bc7bd.gif)](https://gyazo.com/427776cbb1a189054c8b9ab6b30bc7bd)
 
 ### 終活記事投稿  
-
+[![Image from Gyazo](https://i.gyazo.com/8b2784a07bf7043ff7bdd49c17f42832.gif)](https://gyazo.com/8b2784a07bf7043ff7bdd49c17f42832)
 
 ### Will_APPの遺書一覧(本人用ページ)  
 [![Image from Gyazo](https://i.gyazo.com/f35bd5c6f8f50f49284b1ccbe5dd951e.gif)](https://gyazo.com/f35bd5c6f8f50f49284b1ccbe5dd951e)
