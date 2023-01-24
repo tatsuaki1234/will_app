@@ -4,9 +4,11 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
 
+  #アソシエーション
   has_many :articles
   has_many :wills
 
+  #空の投稿を保存できないようにする
   validates :name, presence: true
   validates :nickname, presence: true
   validates :email, presence: true

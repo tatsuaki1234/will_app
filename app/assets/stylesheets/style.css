@@ -1013,8 +1013,13 @@ form input[type="submit"]:hover {
   box-shadow: 0 0 10px rgba(41, 41, 41, 0.2);
   background-color: white;
   box-sizing: border-box;
-  /* overflow-y: scroll; */
 }
+
+.form-box-1{
+  height: 590px;
+  overflow-y: scroll;
+}
+
 
 .container h3 {
   margin: 0 0 20px;
@@ -1275,6 +1280,22 @@ footer {
   font-size:12px;
   width: 100px;
   display: inline-block;
+}
+
+.wrapper{
+  /* min-height: 100vh; */
+  /* position: relative;←相対位置 */
+  /* padding-bottom: 120px;←footerの高さ */
+  /* box-sizing: border-box;←全て含めてmin-height:100vhに */
+}
+
+.container_2 {
+      /* display: flex;
+      flex-direction: column; */
+      /* min-height: 100vh; */
+      /* position: relative;←相対位置 */
+      /* padding-bottom: 120px;←footerの高さ */
+      /* box-sizing: border-box;←全て含めてmin-height:100vhに */
 }
 
 /*＊＊＊＊＊＊＊＊＊＊＊＊＊＊＊
