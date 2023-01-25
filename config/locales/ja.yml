@@ -9,3 +9,6 @@ ja:
       article:
         title: タイトル
         content: 記事内容
+      will:
+        will_address: 宛名
+        content: 遺書内容
