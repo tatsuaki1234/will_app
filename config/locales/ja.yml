@@ -1,0 +1,11 @@
+ja:
+  activerecord:
+    attributes:
+      user:
+        name: 名前(本名)
+        nickname: ニックネーム
+        day_of_birth: 生年月日
+        secret_key: シークレットキー
+      tweet:
+        text: テキスト
+        image: 画像
