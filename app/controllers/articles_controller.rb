@@ -11,14 +11,9 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    # @article = Article.new
-    # Article.create(article_params)
-    # redirect_to  controller: :コントローラー名, action: :アクション名
     @article = Article.new(article_params)
     if @article.save
-      # redirect_to articles_path
       render :create
-      # redirect_to controller: :articles, notice: "成功しました"
     else
       render :new
     end
