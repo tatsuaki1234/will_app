@@ -38,19 +38,26 @@ RSpec.describe User, type: :model do
         expect(@user.errors.full_messages).to include("パスワードを入力してください")
       end
 
-      it 'passwordとpassword_confirmationが不一致では登録できない' do
+      it 'encrypted_passwordが空では登録できない' do
+        @user.encrypted_password = ''
+        @user.valid?
+        expect(@user.errors.full_messages).to include("暗号化パスワードを入力してください")
+      end
+
+      it 'passwordとencrypted_passwordが不一致では登録できない' do
         # @user.password = '123abc'
-        # @user.encrypted_password = '1234ab'
+        # @user.encrypted_password = 'abc123'
         # @user.valid?
         # expect(@user.errors.full_messages).to include("パスワード（確認用）とパスワードの入力が一致しません")
       end
-      it '生年月日がないと登録できない' do
+
+      it '生年月日が空では登録できない' do
         @user.day_of_birth = ''
         @user.valid?
         expect(@user.errors.full_messages).to include("生年月日を入力してください")
       end
 
-      it 'シークレットキーがないと登録できない' do
+      it 'シークレットキーが空では登録できない' do
         @user.secret_key = ''
         @user.valid?
         expect(@user.errors.full_messages).to include("シークレットキーを入力してください")
