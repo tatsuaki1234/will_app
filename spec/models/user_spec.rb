@@ -49,6 +49,13 @@ RSpec.describe User, type: :model do
         @user.valid?
         expect(@user.errors.full_messages).to include("生年月日を入力してください")
       end
+
+      it 'シークレットキーがないと登録できない' do
+        @user.secret_key = ''
+        @user.valid?
+        expect(@user.errors.full_messages).to include("シークレットキーを入力してください")
+      end
+
     end
   end
 end
