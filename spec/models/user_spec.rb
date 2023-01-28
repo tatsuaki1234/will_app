@@ -72,6 +72,13 @@ RSpec.describe User, type: :model do
         expect(@user.errors.full_messages).to include("パスワードは英字と数字の組み合わせで入力して下さい。")
       end
 
+      it 'パスワードは、半角数字のみでは保存できないこと' do
+        @user.password = '123456'
+        @user.encrypted_password = "123456"
+        @user.valid?
+        expect(@user.errors.full_messages).to include("パスワードは英字と数字の組み合わせで入力して下さい。")
+      end
+
       it '生年月日が空では登録できない' do
         @user.day_of_birth = ''
         @user.valid?
