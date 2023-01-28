@@ -39,15 +39,15 @@ RSpec.describe User, type: :model do
       end
 
       it 'passwordとpassword_confirmationが不一致では登録できない' do
-        # @user.email = ''
+        # @user.password = '123abc'
+        # @user.encrypted_password = '1234ab'
         # @user.valid?
-        # expect(@user.errors.full_messages).to include("Eメールを入力してください")
+        # expect(@user.errors.full_messages).to include("パスワード（確認用）とパスワードの入力が一致しません")
       end
-
       it '生年月日がないと登録できない' do
-        # @user.email = ''
-        # @user.valid?
-        # expect(@user.errors.full_messages).to include("Eメールを入力してください")
+        @user.day_of_birth = ''
+        @user.valid?
+        expect(@user.errors.full_messages).to include("生年月日を入力してください")
       end
     end
   end
