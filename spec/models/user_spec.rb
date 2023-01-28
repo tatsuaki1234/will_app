@@ -18,12 +18,14 @@ RSpec.describe User, type: :model do
         user = User.new(name: "", nickname: 'testニックネーム', email: 'test@example', password: '000000', password_confirmation: '000000', day_of_birth: "1996/12/17", secret_key: "123test" )
         user.valid?
         expect(user.errors.full_messages).to include("名前(本名)を入力してください")
-        # binding.pry
+      end
 
-      end
       it 'emailが空では登録できない' do
-        # emailが空では登録できないテストコードを記述します
+        user = User.new(name: "test名前", nickname: 'testニックネーム', email: '', password: '000000', password_confirmation: '000000', day_of_birth: "1996/12/17", secret_key: "123test" )
+        user.valid?
+        expect(user.errors.full_messages).to include("Eメールを入力してください")
       end
+
     end
   end
 end
