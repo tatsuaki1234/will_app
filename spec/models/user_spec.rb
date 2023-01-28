@@ -44,11 +44,11 @@ RSpec.describe User, type: :model do
         expect(@user.errors.full_messages).to include("暗号化パスワードを入力してください")
       end
 
-      it 'passwordとencrypted_passwordが不一致では登録できない' do
-        # @user.password = '123abc'
-        # @user.encrypted_password = 'abc123'
-        # @user.valid?
-        # expect(@user.errors.full_messages).to include("パスワード（確認用）とパスワードの入力が一致しません")
+      it 'passwordとpassword_confirmationが不一致では登録できない' do
+        @user.password = '123abc'
+        @user.password_confirmation = '1234ab'
+        @user.valid?
+        expect(@user.errors.full_messages).to include("パスワード（確認用）とパスワードの入力が一致しません")
       end
 
       it '生年月日が空では登録できない' do
