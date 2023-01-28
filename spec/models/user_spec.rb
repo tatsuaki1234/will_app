@@ -16,14 +16,14 @@ RSpec.describe User, type: :model do
     context '新規登録できないとき' do
       it 'nameが空では登録できない' do
         @user.name = ""
-        user.valid?
-        expect(user.errors.full_messages).to include("名前(本名)を入力してください")
+        @user.valid?
+        expect(@user.errors.full_messages).to include("名前(本名)を入力してください")
       end
 
       it 'emailが空では登録できない' do
-        user = User.new(name: "test名前", nickname: 'testニックネーム', email: '', password: '000000', password_confirmation: '000000', day_of_birth: "1996/12/17", secret_key: "123test" )
-        user.valid?
-        expect(user.errors.full_messages).to include("Eメールを入力してください")
+        @user.email = ''
+        @user.valid?
+        expect(@user.errors.full_messages).to include("Eメールを入力してください")
       end
 
     end
