@@ -65,6 +65,13 @@ RSpec.describe User, type: :model do
         expect(@user.errors.full_messages).to include("パスワード（確認用）とパスワードの入力が一致しません")
       end
 
+      it 'パスワードは、半角英字のみでは保存できないこと' do
+        @user.password = 'abcdef'
+        @user.encrypted_password = "abcdef"
+        @user.valid?
+        expect(@user.errors.full_messages).to include("パスワードは英字と数字の組み合わせで入力して下さい。")
+      end
+
       it '生年月日が空では登録できない' do
         @user.day_of_birth = ''
         @user.valid?
