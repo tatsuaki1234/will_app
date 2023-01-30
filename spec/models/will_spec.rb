@@ -11,25 +11,25 @@ RSpec.describe Will, type: :model do
         # expect(@article).to be_valid
       end
 
-      # context '記事投稿できないとき' do
-      #   it 'titleが空では投稿できない' do
+      context '遺書登録できないとき' do
+        it 'will_addressが空では登録できない' do
           # @article.title = ''
           # @article.valid?
           # expect(@article.errors.full_messages).to include("タイトルを入力してください")
-        # end
+        end
 
-        # it 'contentが空では投稿できない' do
+        it 'contentが空では登録できない' do
           # @article.content = ''
           # @article.valid?
           # expect(@article.errors.full_messages).to include("記事内容を入力してください")
-        # end          
+        end          
         
-        # it 'userが紐付いていなければ投稿できない' do
+        it 'userが紐付いていなければ登録できない' do
           # @article.user = nil
           # @article.valid?
           # expect(@article.errors.full_messages).to include("ユーザーを入力してください")
-        # end          
-      # end
+        end          
+      end
     end
   end
 end
