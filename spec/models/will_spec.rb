@@ -13,9 +13,9 @@ RSpec.describe Will, type: :model do
 
       context '遺書登録できないとき' do
         it 'will_addressが空では登録できない' do
-          # @article.title = ''
-          # @article.valid?
-          # expect(@article.errors.full_messages).to include("タイトルを入力してください")
+          @will.will_address = ''
+          @will.valid?
+          expect(@will.errors.full_messages).to include("宛名を入力してください")
         end
 
         it 'contentが空では登録できない' do
