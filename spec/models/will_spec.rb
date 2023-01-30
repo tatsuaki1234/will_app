@@ -19,9 +19,9 @@ RSpec.describe Will, type: :model do
         end
 
         it 'contentが空では登録できない' do
-          # @article.content = ''
-          # @article.valid?
-          # expect(@article.errors.full_messages).to include("記事内容を入力してください")
+          @will.content = ''
+          @will.valid?
+          expect(@will.errors.full_messages).to include("遺書内容を入力してください")
         end          
         
         it 'userが紐付いていなければ登録できない' do
