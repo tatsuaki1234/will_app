@@ -25,9 +25,9 @@ RSpec.describe Will, type: :model do
         end          
         
         it 'userが紐付いていなければ登録できない' do
-          # @article.user = nil
-          # @article.valid?
-          # expect(@article.errors.full_messages).to include("ユーザーを入力してください")
+          @will.user = nil
+          @will.valid?
+          expect(@will.errors.full_messages).to include("Userを入力してください")
         end          
       end
     end
