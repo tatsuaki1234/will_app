@@ -133,10 +133,10 @@ iPhoneのメモアプリに遺書を届けたい相手と内容を書き出し�
 [![Image from Gyazo](https://i.gyazo.com/607d939a662d5f1c06d1b98e73b70a22.png)](https://gyazo.com/607d939a662d5f1c06d1b98e73b70a22)
 
 ### Articleモデル  
-[![Image from Gyazo](https://i.gyazo.com/1d4a0c21c1869948b5756fc451d518ea.png)](https://gyazo.com/1d4a0c21c1869948b5756fc451d518ea)
+[![Image from Gyazo](https://i.gyazo.com/12aae4952bd9c0549ee518466f4c6801.png)](https://gyazo.com/12aae4952bd9c0549ee518466f4c6801)
 
 ### Willモデル  
-[![Image from Gyazo](https://i.gyazo.com/b87dad0900e25498a58089c2d1a85800.png)](https://gyazo.com/b87dad0900e25498a58089c2d1a85800)
+[![Image from Gyazo](https://i.gyazo.com/183e24a8717e99c650c6736ef03e87e3.png)](https://gyazo.com/183e24a8717e99c650c6736ef03e87e3)
 
 
   <br>
