@@ -8,7 +8,7 @@ RSpec.describe Will, type: :model do
   describe '遺書新規登録' do
     context '遺書新規登録できるとき' do
       it 'will_address、contentが存在すれば登録できる' do
-        # expect(@article).to be_valid
+        expect(@will).to be_valid
       end
 
       context '遺書登録できないとき' do
