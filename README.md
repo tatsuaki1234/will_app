@@ -128,10 +128,18 @@ iPhoneのメモアプリに遺書を届けたい相手と内容を書き出し�
 
   <br>
   
-<!-- # ローカルでの動作方法
-あああ
+# 単体テストコード結果
+### Userモデル  
+[![Image from Gyazo](https://i.gyazo.com/607d939a662d5f1c06d1b98e73b70a22.png)](https://gyazo.com/607d939a662d5f1c06d1b98e73b70a22)
 
-  <br> -->
+### Articleモデル  
+[![Image from Gyazo](https://i.gyazo.com/1d4a0c21c1869948b5756fc451d518ea.png)](https://gyazo.com/1d4a0c21c1869948b5756fc451d518ea)
+
+### Willモデル  
+[![Image from Gyazo](https://i.gyazo.com/b87dad0900e25498a58089c2d1a85800.png)](https://gyazo.com/b87dad0900e25498a58089c2d1a85800)
+
+
+  <br>
   
 # 工夫したポイント
 - 本人以外の閲覧方法にフルネームと生年月日の入力フォームを搭載しました。  
