@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :article do
-    title                 {'test-item'}
+    title                 {'test-article'}
     content               {'test-content'}
 
     association :user
