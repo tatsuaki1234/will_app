@@ -2,8 +2,6 @@
   <div class="container form-box-1">
     <h3>記事を投稿する</h3>
     <%= form_with(model: @article, local: true) do |form| %>
-    <%# form_with(model: @article, url: new_article_path, local: true) do |form| %>
-    <%# form_with model: @user, url: user_registration_path, class: 'registration-main', local: true do |f| %>
     <%= render 'devise/shared/error_messages', model: form.object %>
 
       <%= form.text_field :title, placeholder: "タイトル" %>
@@ -15,6 +13,3 @@
 </div>
 
 
-          <%# articles    POST   /articles(.:format)           articles#create
-          new_article GET    /articles/new(.:format)       articles#new %>
-          
