@@ -1,9 +1,15 @@
 <div class="show-article">
   <div class="show-article-box">
         <%# <div class="content_post" style="background-image: url(<%= article.image %>
-          <h1 class="show-article-user"><%= @article.user.nickname %></h1>
-          <p class="show-article-title">『<%= @article.title %>』</p>
+        <div class="article-show-nickname">
+          <h1 class="show-article-user">投稿者名：　<%= @article.user.nickname %></h1>
+        </div>
+        <div class="article-show-title">
+          <p class="show-article-title">タイトル：　<%= @article.title %></p>
+        </div>
+        <div class="article-show-content">
           <%= @article.content %>
+        </div>
         <%# </div> %>
   </div>
 </div>

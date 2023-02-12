@@ -12,6 +12,30 @@ p{
   overflow-wrap : break-word;
 }
 
+.article-show-nickname{
+  border-bottom: 0.2vh solid #898989;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.article-show-title{
+  border-bottom: 0.2vh solid #898989;
+  height: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+.article-show-content{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 2vh;
+}
+
 .show-article{
   display: flex;
   justify-content: center;
@@ -23,6 +47,7 @@ p{
   font-size: 16px;
   line-height: 1em;
 }
+
 
 .show-article-content{
   font-size: 12px;
