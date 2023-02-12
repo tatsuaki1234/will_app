@@ -30,7 +30,7 @@
       <% @articles.each do |article| %>
         <%= link_to article_path(article.id), method: :get do %>
           <div class="content_post">
-            <p class="article-user"><%= article.user.nickname%> ：<%= article.created_at.to_s(:datetime_jp)%></p>
+            <p class="article-user"><span class="article-user-name"><%= article.user.nickname%></span> ：<%= article.created_at.to_s(:datetime_jp)%></p>
             <p class="article-title">『<%= article.title %>』</p>
             <p class="article-content">　<%= article.content %></p>
           </div>
