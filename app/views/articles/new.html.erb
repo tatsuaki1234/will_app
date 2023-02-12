@@ -3,7 +3,6 @@
     <h3>記事を投稿する</h3>
     <%= form_with(model: @article, local: true) do |form| %>
     <%= render 'devise/shared/error_messages', model: form.object %>
-
       <%= form.text_field :title, placeholder: "タイトル" %>
       <%= form.text_field :image, placeholder: "画像 URL" %>
       <%= form.text_area :content, placeholder: "記事内容", rows: "10" %>
